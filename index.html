@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>6 Medicinal Herbs</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script defer type="text/javascript" src="./src/index.js"></script>
+</head>
+<body>
+  <!-- Herb Bar -->
+  <div id="top">
+    <!-- Herb Images Here -->
+    <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here">
+  </div>
+
+  <nav id="herb-list">
+  </nav>
+
+  <!-- Herb Details -->
+  <div id="herb-info">
+    <img class="detail-image" src="">
+    <div>
+      <h1 id="name">Scientific Name</h1>
+      <h2 id="mood">Mood</h2>
+      <p id="description">
+        Description
+      </p>
+
+      <ul id="comments-list" class="comments">
+       
+      </ul>
+
+      <form id="comment-form" class="comment-form">
+        <input class="comment-input" type="text" name="comment" id="comment" placeholder="Add a comment...">
+        <button class="comment-button" type="submit">Post</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    // Add mouseover event listener to the image with class "detail-image"
+    const detailImage = document.querySelector(".detail-image");
+    detailImage.addEventListener("mouseover", handleMouseOver);
+
+    // Mouseover event handler
+    function handleMouseOver(event) {
+      // Perform actions when mouse is over the image
+      // Example: Change image source or apply CSS styles
+      // You can add your own code here
+    }
+  </script>
+</body>
+</html>

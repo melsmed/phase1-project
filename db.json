@@ -1,0 +1,46 @@
+{
+    "herbs" : [
+        {
+            "id": 1,
+            "name": "",
+            "mood": "",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "name": "",
+            "mood": "",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "name": "",
+            "mood": "",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "name": "",
+            "mood": "",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 5,
+            "name": "",
+            "mood": "",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 6,
+            "name": "",
+            "mood": "",
+            "description": "",
+            "image": ""
+        }
+    ]
+}
